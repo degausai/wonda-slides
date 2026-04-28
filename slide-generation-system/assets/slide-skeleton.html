@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title><slide name></title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=<BrandFont>:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        /* paste extracted tokens here: --bg, --fg, --accent, --border, etc. */
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: <W>px;
+        height: <H>px;
+        overflow: hidden;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: "<BrandFont>", ui-sans-serif, system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      .slide {
+        position: relative;
+        width: <W>px;
+        height: <H>px;
+        padding: 72px 120px;
+        display: flex;
+        flex-direction: column;
+        /* paste the brand's pattern stack here (radial glows, noise, etc.) */
+      }
+      .slide > * {
+        position: relative;
+        z-index: 1;
+      }
+      /* frames, eyebrows, arrows, etc., all using brand tokens */
+    </style>
+  </head>
+  <body>
+    <div class="slide">
+      <!-- pattern layers (corners, dividers, dot grid) go as positioned divs with their own masks -->
+      <!-- content layer: hero, headline, bullets, visuals -->
+    </div>
+  </body>
+</html>
