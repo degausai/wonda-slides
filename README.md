@@ -76,7 +76,6 @@ Export as 1080×1080 for Instagram
 
 ## Why this exists
 
-- 5 years at JPM and Atomico left a strong allergic reaction to opening Google Slides at 2am.
 - One-shots fully branded decks from notes that already exist (Notion, Google Docs, Granola, codebase markdown). No template store, no theme picker.
 - Pulls real brand tokens from any URL. Not a "color palette" mode. Real CSS extraction with type tokens, pattern stack, hero-asset detection, font self-host detection.
 - 50% fewer tokens than `claude design`. Agents can run it many times in a single session without burning context.
