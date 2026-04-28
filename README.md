@@ -139,6 +139,4 @@ npm i -g @degausai/wonda  ·  brew tap degausai/tap && brew install wonda  ·  h
 
 ## Credits
 
-Inspired by [HeyGen HyperFrames](https://github.com/heygen-com/hyperframes), which proved that HTML-as-source-of-truth plus agent-native UX can win.
-
 Built on top of [Wonda CLI](https://wonda.sh).
